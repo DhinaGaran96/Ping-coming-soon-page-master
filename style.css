@@ -1,0 +1,195 @@
+*
+{
+    padding:0;
+    margin:0;
+
+}
+body
+{
+    font-family: "Libre Franklin", serif;
+    font-size: 20px;
+}
+.main-container
+{
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.heading h1
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    
+}
+.heading p
+{
+    color:hsl(209, 33%, 12%);
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+span
+{
+    color:hsl(0, 0%, 59%);
+}
+
+footer
+{
+    color:hsl(0, 0%, 59%);
+}
+.img-container img
+{
+    width:80%;
+    height: 80%;
+    margin-top:30px;
+}
+.img-container p
+{
+    text-align: left;
+    margin-left:36%;
+    font-size: 15px;
+    color:red;
+}
+.input-container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+
+}
+.input-container input{
+    width:20%;
+    padding:10px 20px 10px 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.input-container button{
+    padding:10px 20px 10px 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+    background-color: rgb(15, 187, 245);
+    font-weight: bold;
+    color: white;
+}
+.icon-container
+{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.icon-container img{
+    width:20px;
+    height:20px;
+    padding-left:30px;
+}
+
+@media  screen and (max-width: 768px)
+{
+    .heading h1
+    {
+        margin-top:20px;
+    }
+    .input-container input
+    {
+        width:30%;
+
+    }
+    .img-container p
+    {
+        
+        font-size: 14px;
+    }
+    
+}
+@media  screen and (max-width: 1024px)
+{
+    .input-container input
+    {
+        width:30%;
+    }
+    .img-container p 
+    {
+        margin-left: 30%;
+    }
+}
+@media  screen and (max-width: 376px) {
+    .input-container 
+    {
+        
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .input-container  input
+    {
+        width:100%;
+        margin-left: 10px;
+        margin-bottom:30px;
+
+
+    }
+    .input-container button 
+    {
+        width:100%;
+        margin-left: 10px;
+    }
+    .heading h1 
+    {
+        font-size: 20px;
+
+    }
+    .heading p 
+    {
+        font-size:15px;
+    }
+    .img-container p 
+    {
+        position: absolute;
+        margin-left: 10px;
+        top:38%;
+        font-size: 12px;
+    }
+    footer 
+    {
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width: 476px)
+{
+    .heading h1 
+    {
+        font-size: 20px;
+    }
+    .heading p 
+    {
+        font-size:15px;
+    }
+    .input-container
+    {
+        display:flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .input-container input 
+    {
+        width:100%;
+        margin-left: 20px;
+        margin-bottom: 35px;
+    }
+    .input-container button 
+    {
+        width:100%;
+        margin-left: 15px;
+    }
+    .img-container p 
+    {
+        position: absolute;
+        top:38%;
+        margin-left: 20px;
+    }
+}
